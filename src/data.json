@@ -1,0 +1,23 @@
+{
+    "products":[
+        {
+            "id": ,
+            "name": ,
+            "price": , 
+            "category": ,
+            "image": ,
+            "desc": 
+        }
+    ],
+
+    "users":[
+        {
+            "id": ,
+            "name": ,
+            "country": ,
+            "state": ,
+            "imgSrc": , 
+            "review": 
+        }
+    ]
+}

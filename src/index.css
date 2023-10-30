@@ -1,3 +1,84 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Marney';
+  src: url('../public/fonts/Marney-Holland-Serif.otf') format('opentype');
+  /* font-weight: bold; */
+  font-style: normal;
+}
+
+
+:root{
+  --font-heading:'Montserrat', sans-serif;
+  --dark-green:  #0D554A; 
+  --yellow : #F2C66D;
+  --light-green: #24837D;
+
+  /* Font Family */
+  --ff: 'Arial', sans-serif;
+  
+  /* Brand Logo */
+  --logo-d: 3rem;      /* Desktop */
+  --logo-t: 2.25rem;  /* Tablet */
+  --logo-m: 2rem;     /* Mobile */
+  
+  /* Page Titles / H1 */
+  --h1-d: 2.25rem;    /* Desktop */
+  --h1-t: 2rem;       /* Tablet */
+  --h1-m: 1.75rem;    /* Mobile */
+  
+  /* Section Titles / H2 */
+  --h2-d: 1.75rem;    /* Desktop */
+  --h2-t: 1.5rem;     /* Tablet */
+  --h2-m: 1.25rem;    /* Mobile */
+  
+  /* Sub-section Titles / H3 */
+  --h3-d: 1.5rem;     /* Desktop */
+  --h3-t: 1.25rem;    /* Tablet */
+  --h3-m: 1rem;       /* Mobile */
+  
+  /* Body Text / Paragraph */
+  --p-d: 1rem;        /* Desktop */
+  --p-t: 0.9375rem;   /* Tablet */
+  --p-m: 0.875rem;    /* Mobile */
+  
+  /* Caption / Small Text */
+  --c-d: 0.875rem;    /* Desktop */
+  --c-t: 0.8125rem;   /* Tablet */
+  --c-m: 0.75rem;     /* Mobile */
+}
+
+body{
+  overflow-x: hidden;
+  /* height: 1000vh; */
+}
+
+/* Styles for Webkit browsers (like Chrome and Safari) */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+@media screen and (max-width:426px) {
+  ::-webkit-scrollbar {
+      width: 4px;
+      height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+      background-color: transparent; /* Making it transparent to focus on the thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+      background-color: var(--yellow);
+      border-radius: 1.5px; /* Half of the width to make it slightly rounded */
+  }
+  
+  /* Styles for Firefox */
+  body {
+      scrollbar-width: thin;
+      scrollbar-color: var(--yellow) transparent; /* Thumb color and track color */
+  }
+}
