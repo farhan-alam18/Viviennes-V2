@@ -1,5 +1,5 @@
 {
-    "products":[
+    "products": [
         {
             "id": 1,
             "name": "Radiance Necklace",
@@ -57,8 +57,7 @@
             "tagline": "Where Art Meets Elegance"
         }
     ],
-
-    "users":[
+    "users": [
         {
             "id": 1,
             "name": "Marta Dominguez",

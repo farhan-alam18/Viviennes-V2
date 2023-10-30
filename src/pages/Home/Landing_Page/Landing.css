@@ -1,0 +1,149 @@
+.landing{
+    display: flex;
+    /* background-color: var(--dark-green); */
+    background-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20xmlns%3Asvgjs%3D%22http%3A%2F%2Fsvgjs.dev%2Fsvgjs%22%20viewBox%3D%220%200%20700%20700%22%20width%3D%22700%22%20height%3D%22700%22%3E%3Cdefs%3E%3Cfilter%20id%3D%22nnnoise-filter%22%20x%3D%22-20%25%22%20y%3D%22-20%25%22%20width%3D%22140%25%22%20height%3D%22140%25%22%20filterUnits%3D%22objectBoundingBox%22%20primitiveUnits%3D%22userSpaceOnUse%22%20color-interpolation-filters%3D%22linearRGB%22%3E%0A%09%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.05%22%20numOctaves%3D%224%22%20seed%3D%2215%22%20stitchTiles%3D%22stitch%22%20x%3D%220%25%22%20y%3D%220%25%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20result%3D%22turbulence%22%3E%3C%2FfeTurbulence%3E%0A%09%3CfeSpecularLighting%20surfaceScale%3D%2220%22%20specularConstant%3D%221.1%22%20specularExponent%3D%2220%22%20lighting-color%3D%22%2324837D%22%20x%3D%220%25%22%20y%3D%220%25%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20in%3D%22turbulence%22%20result%3D%22specularLighting%22%3E%0A%09%09%3CfeDistantLight%20azimuth%3D%223%22%20elevation%3D%22112%22%3E%3C%2FfeDistantLight%3E%0A%09%3C%2FfeSpecularLighting%3E%20%20%0A%3C%2Ffilter%3E%3C%2Fdefs%3E%3Crect%20width%3D%22700%22%20height%3D%22700%22%20fill%3D%22%20%230D554A%22%3E%3C%2Frect%3E%3Crect%20width%3D%22700%22%20height%3D%22700%22%20fill%3D%22%2324837d%22%20filter%3D%22url(%23nnnoise-filter)%22%3E%3C%2Frect%3E%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding: 3rem 0; */
+    /* justify-content: center;
+    align-items: center; */
+    padding-left:6rem ;
+}
+
+/* body{
+    overflow: hidden;
+} */
+
+.landing > p{
+    margin: 7rem 5rem;
+    font-family:'Marney';
+    color: var(--yellow);
+    text-wrap: balance;
+    font-size: 4rem;
+}
+
+.landing > p > button {
+    padding: 1rem;
+    width: 12rem;
+    margin: 6rem 2rem;
+    font-family: var(--font-heading);
+    border-radius: 30px;
+    border: 1px solid whitesmoke;
+    background: transparent;
+    color: white;
+    font-size: 0.9rem;
+
+}
+
+.landing-image{
+    display: flex;
+
+}
+.button{
+    display: flex;
+    background-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20xmlns%3Asvgjs%3D%22http%3A%2F%2Fsvgjs.dev%2Fsvgjs%22%20viewBox%3D%220%200%20700%20700%22%20width%3D%22700%22%20height%3D%22700%22%3E%3Cdefs%3E%3Cfilter%20id%3D%22nnnoise-filter%22%20x%3D%22-20%25%22%20y%3D%22-20%25%22%20width%3D%22140%25%22%20height%3D%22140%25%22%20filterUnits%3D%22objectBoundingBox%22%20primitiveUnits%3D%22userSpaceOnUse%22%20color-interpolation-filters%3D%22linearRGB%22%3E%0A%09%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.05%22%20numOctaves%3D%224%22%20seed%3D%2215%22%20stitchTiles%3D%22stitch%22%20x%3D%220%25%22%20y%3D%220%25%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20result%3D%22turbulence%22%3E%3C%2FfeTurbulence%3E%0A%09%3CfeSpecularLighting%20surfaceScale%3D%2220%22%20specularConstant%3D%221.1%22%20specularExponent%3D%2220%22%20lighting-color%3D%22%2324837D%22%20x%3D%220%25%22%20y%3D%220%25%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20in%3D%22turbulence%22%20result%3D%22specularLighting%22%3E%0A%09%09%3CfeDistantLight%20azimuth%3D%223%22%20elevation%3D%22112%22%3E%3C%2FfeDistantLight%3E%0A%09%3C%2FfeSpecularLighting%3E%20%20%0A%3C%2Ffilter%3E%3C%2Fdefs%3E%3Crect%20width%3D%22700%22%20height%3D%22700%22%20fill%3D%22%20%230D554A%22%3E%3C%2Frect%3E%3Crect%20width%3D%22700%22%20height%3D%22700%22%20fill%3D%22%2324837d%22%20filter%3D%22url(%23nnnoise-filter)%22%3E%3C%2Frect%3E%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button > button{
+    padding: 1rem;
+    width: 12rem;
+    margin: 0 auto;
+    font-family: var(--font-heading);
+    border-radius: 30px;
+    border: 1px solid whitesmoke;
+    background: transparent;
+    color: white;
+    margin-bottom: 3rem;
+    /* border: 1px solid black; */
+    display: none;
+}
+
+.landing-image{
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+.landing-image > .img1{
+    width: 380px;
+}
+.landing-image > .img2{
+    margin: 5rem -10rem;
+    /* width: 11rem;
+    height: 15rem; */
+}
+
+.landing-button{
+    font-size: 1rem;
+    font-family: var(--font-heading);
+}
+
+
+@media (max-width:426px) {
+    .landing{
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        padding-left: 0;
+    }
+
+    .landing > button{
+        margin-bottom: 3rem;
+        /* border-radius: 0; */
+    }
+    
+    .landing > p{
+        /* border: 1px solid black; */
+        width: fit-content;
+        margin: 0 3rem;
+        text-wrap: nowrap;
+        padding-top: 3rem;
+        padding-bottom: 1.3rem;
+        /* padding-right: 3rem; */
+        font-size: 2rem;
+    }
+
+    .landing > p > button{
+        display: none;
+    }
+
+    .button > button{
+        display: block;
+        font-size: 0.9rem;
+        font-family: var(--font-heading);
+        font-weight: 500;
+    }
+
+
+    .landing-image{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .landing-image > .img1{
+        width: 250px;
+        height: 350px;
+        margin: 0.5rem 3rem;
+    }
+    
+    .landing-image > .img2{
+        margin: 5rem -10rem;
+        width: 11rem;
+        height: 15rem;
+    }
+    
+    
+}
+@media screen and (max-width:425px) {
+    .landing-image > .img1{
+        width: 200px;
+        height: 300px;
+        margin: 0.5rem 5rem;
+        margin-bottom: 2rem;
+    }
+    .landing-image > .img2{
+        margin: 4rem -9rem;
+        width: 8.7rem;
+        height: 12rem;
+    }
+}

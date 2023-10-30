@@ -1,0 +1,33 @@
+.my_swiper_slider{
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+.my_swiper_slider > img{
+    width: 260px;
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+}
+
+.my_swiper_slider > p{
+    white-space: nowrap;
+    /* font-size: 1rem; */
+}
+
+.name_mob{
+    font-family: var(--font-heading);
+    font-size: 1rem; 
+    margin-top: 0.8rem;
+    color: var(--dark-green);
+}
+
+.price_mob{
+    font-family: var(--font-heading);
+    font-size: 0.85rem; 
+    margin-top: 0.5rem;
+    color: var(--dark-green);
+    
+}
