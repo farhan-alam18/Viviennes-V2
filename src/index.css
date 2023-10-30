@@ -7,19 +7,17 @@
 @font-face {
   font-family: 'Marney';
   src: url('../public/fonts/Marney-Holland-Serif.otf') format('opentype');
-  /* font-weight: bold; */
   font-style: normal;
 }
 
 
 :root{
   --font-heading:'Montserrat', sans-serif;
+  --font-logo: 'Marney';
   --dark-green:  #0D554A; 
   --yellow : #F2C66D;
   --light-green: #24837D;
-
-  /* Font Family */
-  --ff: 'Arial', sans-serif;
+  --transition: all 0.3 ease;
   
   /* Brand Logo */
   --logo-d: 3rem;      /* Desktop */
@@ -54,8 +52,24 @@
 
 body{
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
   /* height: 1000vh; */
 }
+
+button{
+  padding: 1rem;
+  width: 12rem;
+  font-family: var(--font-heading);
+  font-weight: bold;
+  border-radius: 30px;
+  border: 1px solid var(--dark-green);
+  /* background: transparent; */
+  color: var(--dark-green);
+  margin-bottom: 3rem;
+  cursor: pointer;
+}
+
 
 /* Styles for Webkit browsers (like Chrome and Safari) */
 ::-webkit-scrollbar {

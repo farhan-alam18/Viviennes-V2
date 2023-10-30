@@ -11,6 +11,7 @@ import Collections from './pages/Collections/Collections'
 import Contact from './pages/Contact/Contact'
 import Account from './pages/Account/Account'
 import Cart from './pages/Cart/Cart'
+import About from './pages/About/About'
 
 // Creating Router -> Routing Paths 
 const router = createBrowserRouter(
@@ -19,7 +20,8 @@ const router = createBrowserRouter(
       <Route path="" element={<Home/>} />
       <Route path="shop" element={<Shop/>} />
       <Route path="collections" element={<Collections/>} />
-      <Route path="about" element={<Contact/>} />
+      <Route path="about" element={<About/>} />
+      <Route path="contact" element={<Contact/>} />
       <Route path="account" element={<Account/>} />
       <Route path="cart" element={<Cart/>} />
     </Route>
