@@ -1,23 +1,119 @@
 {
     "products":[
         {
-            "id": ,
-            "name": ,
-            "price": , 
-            "category": ,
-            "image": ,
-            "desc": 
+            "id": 1,
+            "name": "Radiance Necklace",
+            "price": "$168.89",
+            "imgSrc": "",
+            "desc": "The Radiance Necklace epitomizes grace and sophistication, offering an elegant touch to any ensemble. With its subtle shimmer and delicate craftsmanship, it's a timeless piece every woman should have in her collection.",
+            "tagline": "Illuminate Your Elegance"
+        },
+        {
+            "id": 2,
+            "name": "Lila Stud",
+            "price": "$230.45",
+            "imgSrc": "",
+            "desc": "These studs embody the very essence of luxury. Delicately crafted for the modern woman, the Lila Studs are a testament to minimalist elegance and offer the perfect blend of subtlety and sophistication.",
+            "tagline": "Sophistication in Simplicity"
+        },
+        {
+            "id": 3,
+            "name": "Mira Charm",
+            "price": "$760.75",
+            "imgSrc": "",
+            "desc": "The Mira Charm seamlessly fuses timeless elegance with contemporary design. A luxurious piece, it stands out, making a statement of class and finesse.",
+            "tagline": "Timeless Beauty, Modern Spirit"
+        },
+        {
+            "id": 4,
+            "name": "Zara Drop",
+            "price": "$410.65",
+            "imgSrc": "",
+            "desc": "Inspired by the elegance of raindrops, the Zara Drop is a testament to refined taste. It's the ideal choice for the discerning woman who values both style and substance.",
+            "tagline": "Drops of Posh Elegance"
+        },
+        {
+            "id": 5,
+            "name": "Tia Pearl",
+            "price": "$590.90",
+            "imgSrc": "",
+            "desc": "The Tia Pearl exudes an understated luxury, capturing the iridescent beauty of the sea. A classic piece, it's a reflection of pure elegance and refinement.",
+            "tagline": "Eternal Echoes of the Ocean"
+        },
+        {
+            "id": 6,
+            "name": "Luna Band",
+            "price": "$830.50",
+            "imgSrc": "",
+            "desc": "Inspired by the serene beauty of the moonlit night, the Luna Band is the epitome of grace. It's not just a jewelry piece, but a symbol of poise and sophistication.",
+            "tagline": "Grace of the Moonlit Sky"
+        },
+        {
+            "id": 7,
+            "name": "Rhea Ring",
+            "price": "$550.20",
+            "imgSrc": "",
+            "desc": "With its intricate design and impeccable craftsmanship, the Rhea Ring is a testament to timeless beauty. It's more than just a ring; it's a piece of art, telling a story of elegance.",
+            "tagline": "Where Art Meets Elegance"
         }
     ],
 
     "users":[
         {
-            "id": ,
-            "name": ,
-            "country": ,
-            "state": ,
-            "imgSrc": , 
-            "review": 
+            "id": 1,
+            "name": "Marta Dominguez",
+            "country": "Spain",
+            "state": " Andalusia",
+            "imgSrc": "",
+            "review": "Being a jewelry enthusiast, I've seen and owned my fair share of pieces, but Vivienne's is in a league of its own. Every piece feels like it's crafted with passion, telling a story of its own."
+        },
+        {
+            "id": 2,
+            "name": "Clara Montgomery",
+            "country": "USA",
+            "state": " Massachusetts",
+            "imgSrc": "",
+            "review": "I can't express how much I adore the designs at Vivienne's. The jewelry pieces are not only incredibly elegant, but each one feels special and unique."
+        },
+        {
+            "id": 3,
+            "name": "Emilia Gustafsson",
+            "country": "Sweden",
+            "state": " Västra Götaland",
+            "imgSrc": "",
+            "review": "Every piece from Vivienne's exudes charm and elegance. The quality, the design, the finish, everything is just top-notch."
+        },
+        {
+            "id": 4,
+            "name": "Fiona O'Sullivan",
+            "country": "Ireland",
+            "state": " Cork",
+            "imgSrc": "",
+            "review": "Right from the sheer quality of their pieces to the design aesthetics, everything screams luxury and taste."
+        },
+        {
+            "id": 5,
+            "name": "Amélie Dubois",
+            "country": "France",
+            "state": " Provence",
+            "imgSrc": "",
+            "review": "Shopping for jewelry has always been a cherished pastime, and discovering Vivienne's was like striking gold. Their collection beautifully marries sophistication with modernity."
+        },
+        {
+            "id": 6,
+            "name": "Lena Schmidt",
+            "country": "Germany",
+            "state": " Bavaria",
+            "imgSrc": "",
+            "review": "Their attention to detail, commitment to quality, and the beautiful narrative behind each piece make them my go-to jewelry destination."
+        },
+        {
+            "id": 7,
+            "name": "Chiara Bianchi",
+            "country": "Italy",
+            "state": " Tuscany",
+            "imgSrc": "",
+            "review": "Vivienne's is the epitome of elegance in the world of jewelry. Their pieces have this uncanny ability to resonate with your personality."
         }
     ]
 }
