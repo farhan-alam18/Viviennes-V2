@@ -12,7 +12,8 @@ function MySwiperComponent() {
             spaceBetween={25}
             slidesPerView={5}
             scrollbar={{ hide: false, el: '.swiper-scrollbar' }}
-            style={{ width: '1450px', height: '390px' }}
+            style={{ width: '1490px', height: '380px' }}
+            className='swiper'
         >
             {productsData.products.map(product => (
                 <SwiperSlide key={product.id} className='my-swiper-slider'>

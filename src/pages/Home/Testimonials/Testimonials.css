@@ -7,6 +7,7 @@
     align-items: center;
     justify-content: space-around;
     width: 100%;
+    cursor: grab;
 }
 
 .section-left-heading {
@@ -57,8 +58,8 @@
 
 .pagination-swiper>img {
     display: block;
-    width: 450px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
     object-fit: cover;
 }
 
