@@ -188,5 +188,224 @@
             "desc": "A piercing that exudes grace and luxury, adorned with gilded elements.",
             "tagline": "Graceful Gilded Adornment"
         }
+    ],
+    "product_list": [
+        {
+            "name": "Aurora Silver Necklace",
+            "price": "$900.00",
+            "tagline": "Elegance in Every Curve",
+            "description": "This exquisite silver necklace is a masterpiece of craftsmanship, with intricate curves that capture timeless elegance.",
+            "imgSrc": ""
+        },
+        {
+            "name": "Luna Pearl Earrings",
+            "price": "$1,100.00",
+            "tagline": "Radiate Beauty",
+            "description": "Pearls and diamonds harmonize in these earrings, creating an aura of charm and sophistication.",
+            "imgSrc": ""
+        },
+        {
+            "name": "Isabella Ruby Ring",
+            "price": "$1,250.00",
+            "tagline": "Blossom in Radiance",
+            "description": "A mesmerizing ruby ring with floral details, exuding a radiant charm and opulence.",
+            "imgSrc": ""
+        },
+        {
+            "name": "Sophia Diamond Bracelet",
+            "price": "$1,700.00",
+            "tagline": "Unmatched Brilliance",
+            "description": "Indulge in the brilliance of diamonds with this exquisite bracelet that signifies grace and allure.",
+            "imgSrc": ""
+        },
+        {
+            "name": "Olivia Sapphire Earrings",
+            "price": "$1,300.00",
+            "tagline": "Sapphire Delight",
+            "description": "Sapphires shine brilliantly in these earrings, bringing a touch of enchantment to your look.",
+            "imgSrc": ""
+        },
+        {
+            "name": "Valentina Emerald Pendant",
+            "price": "$1,600.00",
+            "tagline": "Eternal Elegance",
+            "description": "An emerald pendant that represents timeless elegance and the beauty of nature.",
+            "imgSrc": ""
+        },
+        {
+            "name": "Alessia Topaz Ring",
+            "price": "$1,100.00",
+            "tagline": "Topaz Radiance",
+            "description": "This topaz ring glimmers with pure radiance and beauty, a true statement of elegance.",
+            "imgSrc": ""
+        },
+        {
+            "name": "Giulia Amethyst Necklace",
+            "price": "$1,500.00",
+            "tagline": "Amethyst Charm",
+            "description": "Amethyst gemstones unite in this necklace, casting an irresistible charm and sophistication.",
+            "imgSrc": ""
+        },
+        {
+            "name": "Camilla Opal Earrings",
+            "price": "$1,450.00",
+            "tagline": "Opal Elegance",
+            "description": "Opals in these earrings symbolize elegance and enchantment, adding a touch of magic to your style.",
+            "imgSrc": ""
+        },
+        {
+            "name": "Francesca Pearl Ring",
+            "price": "$1,900.00",
+            "tagline": "Pearl of Perfection",
+            "description": "This pearl ring is a true perfection, representing grace, purity, and timeless beauty.",
+            "imgSrc": ""
+        },
+        {
+            "name": "Lucia Diamond Bracelet",
+            "price": "$1,300.00",
+            "tagline": "Diamond Radiance",
+            "description": "Radiate with the brilliance of diamonds, an embodiment of grace and charm.",
+            "imgSrc": ""
+        },
+        {
+            "name": "Elena Ruby Earrings",
+            "price": "$1,250.00",
+            "tagline": "Ruby Allure",
+            "description": "These ruby earrings are alluring and enchanting, making a bold statement of beauty.",
+            "imgSrc": ""
+        },
+        {
+            "name": "Serena Sapphire Necklace",
+            "price": "$1,650.00",
+            "tagline": "Sapphire Elegance",
+            "description": "Sapphires in this necklace embody pure elegance, making you feel like royalty.",
+            "imgSrc": ""
+        },
+        {
+            "name": "Maria Amethyst Bracelet",
+            "price": "$1,400.00",
+            "tagline": "Amethyst Beauty",
+            "description": "Amethysts unite in this bracelet, representing the inner beauty of the wearer.",
+            "imgSrc": ""
+        },
+        {
+            "name": "Nina Emerald Earrings",
+            "price": "$1,750.00",
+            "tagline": "Emerald Enchantment",
+            "description": "These emerald earrings enchant with their captivating beauty and charm.",
+            "imgSrc": ""
+        },
+        {
+            "name": "Bianca Pearl Ring",
+            "price": "$1,200.00",
+            "tagline": "Pure Pearl Elegance",
+            "description": "Pure pearls unite in this ring, symbolizing elegance and grace.",
+            "imgSrc": ""
+        },
+        {
+            "name": "Federica Diamond Pendant",
+            "price": "$1,550.00",
+            "tagline": "Diamond Shine",
+            "description": "This diamond pendant shines brilliantly, a symbol of timeless beauty and luxury.",
+            "imgSrc": ""
+        },
+        {
+            "name": "Luciana Ruby Bracelet",
+            "price": "$1,450.00",
+            "tagline": "Ruby Glamour",
+            "description": "Ruby stones in this bracelet cast a glamorous spell, enhancing your style.",
+            "imgSrc": ""
+        },
+        {
+            "name": "Aria Sapphire Earrings",
+            "price": "$1,750.00",
+            "tagline": "Sapphire Bliss",
+            "description": "Sapphire earrings bring bliss and charm, adding a touch of elegance to your look.",
+            "imgSrc": ""
+        },
+        {
+            "name": "Valeria Opal Ring",
+            "price": "$1,100.00",
+            "tagline": "Opal Magic",
+            "description": "This opal ring is truly magical, symbolizing enchantment and timeless allure.",
+            "imgSrc": ""
+        },
+        {
+            "name": "Antonia Pearl Pendant",
+            "price": "$1,800.00",
+            "tagline": "Pearl Charm",
+            "description": "Pearl pendant casts a charming spell, representing grace and elegance.",
+            "imgSrc": ""
+        },
+        {
+            "name": "Elisa Diamond Ring",
+            "price": "$1,650.00",
+            "tagline": "Diamond Splendor",
+            "description": "This diamond ring is a symbol of timeless splendor and elegance.",
+            "imgSrc": ""
+        },
+        {
+            "name": "Lorena Amethyst Necklace",
+            "price": "$1,400.00",
+            "tagline": "Amethyst Enchantment",
+            "description": "Amethysts in this necklace enchant with their captivating beauty and allure.",
+            "imgSrc": ""
+        },
+        {
+            "name": "Cecilia Ruby Earrings",
+            "price": "$1,750.00",
+            "tagline": "Ruby Radiance",
+            "description": "Radiant rubies in these earrings make a bold statement of beauty and grace.",
+            "imgSrc": ""
+        },
+        {
+            "name": "Silvia Sapphire Bracelet",
+            "price": "$1,200.00",
+            "tagline": "Sapphire Grace",
+            "description": "Sapphire bracelet brings grace and elegance, making you feel like royalty.",
+            "imgSrc": ""
+        },
+        {
+            "name": "Giovanna Opal Ring",
+            "price": "$1,550.00",
+            "tagline": "Opal Beauty",
+            "description": "This opal ring is a true beauty, symbolizing enchantment and timeless allure.",
+            "imgSrc": ""
+        },
+        {
+            "name": "Carmela Pearl Necklace",
+            "price": "$1,750.00",
+            "tagline": "Pure Pearl Elegance",
+            "description": "Pure pearls in this necklace symbolize elegance and grace.",
+            "imgSrc": ""
+        },
+        {
+            "name": "Angela Diamond Bracelet",
+            "price": "$1,400.00",
+            "tagline": "Diamond Shine",
+            "description": "Diamond bracelet shines brilliantly, embodying timeless beauty and luxury.",
+            "imgSrc": ""
+        },
+        {
+            "name": "Linda Ruby Earrings",
+            "price": "$1,650.00",
+            "tagline": "Ruby Glamour",
+            "description": "These ruby earrings cast a glamorous spell, enhancing your style.",
+            "imgSrc": ""
+        },
+        {
+            "name": "Rosa Sapphire Ring",
+            "price": "$1,100.00",
+            "tagline": "Sapphire Bliss",
+            "description": "Sapphire stones in this ring bring bliss and charm, adding elegance to your look.",
+            "imgSrc": ""
+        },
+        {
+            "name": "Isabella Topaz Pendant",
+            "price": "$1,800.00",
+            "tagline": "Topaz Magic",
+            "description": "This topaz pendant is truly magical, symbolizing enchantment and timeless allure.",
+            "imgSrc": ""
+        }
     ]
 }
