@@ -33,9 +33,9 @@ footer {
 
 .footer-text-1 > a, 
 .footer-text-2 > a {
-    text-decoration: none;  /* Remove underline for anchor tags */
+    text-decoration: none; 
     margin: 6px;
-    display: block;         /* This makes the anchor tags behave like block-level elements, similar to p tags */
+    display: block; 
 }
 
 .footer-text > .footer-text-2 {
@@ -112,21 +112,17 @@ input::placeholder {
 
 @media screen and (max-width:426px) {
     footer{
-        /* border: 2px solid red; */
         flex-direction: column;
-        /* padding-top: rem; */
         padding: 0;
     }
     .input-container{
         flex-direction: column;
     }
     .footer-text-1{
-        /* border: 1px solid blue; */
         padding: 0;
     }
     .footer-heading{
         margin: 0 auto;
-        /* display: none; */
         margin-bottom: 1rem;
     }
     .newsletter-heading{

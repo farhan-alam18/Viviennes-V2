@@ -33,10 +33,7 @@ a{
 
 
 .nav-link{
-    /* transition: 0.1s; */
-    /* color: var(--yellow); */
     font-size: 1rem;
-    /* border: 1px solid black; */
     padding: 0.4rem 1rem;
 }
 
@@ -65,10 +62,8 @@ a{
 .nav-content{
     width: 75vw;
     display: flex;
-    /* flex-direction: row-reverse; */
     justify-content: space-between;
     align-items: center;
-    /* border: 1px solid black; */
 }
 
 .account-item > .a {
@@ -149,7 +144,6 @@ a{
         margin-left: 10px;
         font-family: var(--font-heading);
         font-size: 1rem;
-        /* color:var(--yellow); */
     }
 
     .account{
