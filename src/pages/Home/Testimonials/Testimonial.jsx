@@ -16,7 +16,7 @@ const Testimonials = () => {
                     {/* <div className='section-left-p2'>Dive into the heartfelt experiences of our cherished clientele who've made Vivienne's a part of their most treasured moments. Their stories inspire us daily, pushing us to elevate our artistry and serve you better with each passing day.</div> */}
                 </div>
                 <div className="section-right">
-                    <Swiper 
+                    <Swiper
                         pagination={{
                             dynamicBullets: true,
                         }}
@@ -24,7 +24,7 @@ const Testimonials = () => {
                         className="mySwiper"
                     >
                         {usersData.users.map(user => (
-                            <SwiperSlide className='pagination-swiper'>
+                            <SwiperSlide key={user.id} className='pagination-swiper'>
                                 <img src={user.imgSrc} alt={user.name} />
                                 <div className="pagination-detail">
                                     <div className="review">{user.review}</div>

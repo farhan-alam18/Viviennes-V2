@@ -15,7 +15,7 @@ function Slidermob() {
             style={{height: '400px' }}
         >
             {productsData.products.map(product => (
-                <SwiperSlide key={product.id} className='my_swiper_slider'>
+                <SwiperSlide key={product.id + 10} className='my_swiper_slider'>
                     <p className='price_mob'>{product.price}</p>
                     <p className='name_mob'>{product.name}</p>
                     <NavLink to="/products">
