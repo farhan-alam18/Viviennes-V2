@@ -1,16 +1,16 @@
 .icon-section {
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin: 4rem 7rem;
+    justify-content: center;
     gap: 2.5rem;
+    margin: 4rem 7rem;
 }
 
 .icons {
     display: flex;
     flex-direction: column;
-    margin: 0;
     padding: 1rem;
+    margin: 0;
 }
 
 .icons>p {

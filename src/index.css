@@ -50,7 +50,6 @@ button {
 
   ::-webkit-scrollbar-track {
     background-color: transparent;
-    /* Making it transparent to focus on the thumb */
   }
 
   ::-webkit-scrollbar-thumb {
